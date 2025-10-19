@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tài liệu ngành CNTT</title>
+        <style>
+    *{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #e1e1e2;
+    width: 100%;
+    height: 100%;
+}
+.cangiua{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.chuchay{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.div-head h4{
+    margin-bottom: 0px;
+    font-weight: 900;
+    color: yellow;
+    font-size: 30px;
+}
+.div-head{
+    height: 120px;
+    display:flex;
+    background-color: darkred;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    background-color: black;
+    color: white;
+    
+}
+.nav-menu a:first-of-type{
+    text-decoration: none;
+}
+.nav-menu a{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 22px;
+    justify-content: space-between;
+    margin: 0px 25px 0px 25px;
+    color: yellow;
+    text-decoration: none;
+}
+.nav-menu a:hover{
+    color:aquamarine;
+    padding: 0px 5px 0px 5px;
+}
+.div-content{
+    display: flex;
+    background-color: white;
+    height: 800px;
+}
+.div-footer{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+.content {
+    border-radius: 4px;
+    width: 100%;
+    height: 800px;
+    border: 2px solid black;
+    margin: 10px 10px 10px 10px ;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+th,td {
+    border: 1px solid black;
+}
+        </style>
+    </head>
+    <body>
+        <div class="contain">
+            <div class="div-head">
+               <img src="https://i.imgur.com/DbdaheG.png" width="120px"; height="120px";/>
+              <div class="cangiua">
+               <h4> CHÀO MỪNG ĐẾN VỚI TRANG WEB CỦA TÔI </h4>
+               <div class="chuchay">
+                 <marquee> Trang web cung cấp tài liệu học tập ngành Công nghệ thông tin!</marquee>
+               </div>
+               </div>
+            </div>
+            <div class="nav-menu">
+                <b><a href="content/trang-chu.html" target="content">Giới thiệu</a></b>
+                <b><a href="content/gioi-thieu.html" target="content">Thông tin</a></b>
+                <b><a href="content/tai_lieu.html" target="content">Tài liệu</a></b>
+                <b><a href="content/thoi-khoa-bieu.html" target="content">Bài tập</a></b>
+            </div>
+            <div class="div-content">
+                <div class="content"> 
+                    <iframe src="trang-chu.html" name="content" ></iframe>
+                </div>  
+            </div>
+            <div class="div-footer">
+                @2025 Bản quyền thuộc về TÔI
+            </div>
+        </div> 
+    </body>
+</html>
